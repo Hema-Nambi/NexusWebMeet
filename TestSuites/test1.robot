@@ -5,6 +5,7 @@ Variables         locators.py
 
 *** Test Cases ***
 Open Website
+        Open Website
 
 *** Keywords ***
 Open Website
