@@ -22,5 +22,5 @@ RUN ln -fs /opt/chromedriver/chromedriver /usr/local/bin/chromedriver
 
 RUN export PATH=/usr/local/bin/chromedriver:$PATH
 
-RUN robot -d NexusWebMeet/TestSuites/reports NexusWebMeet/TestSuites
+RUN robot -d TestSuites/reports/ TestSuites/
 
