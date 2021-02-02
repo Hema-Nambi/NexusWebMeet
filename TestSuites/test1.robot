@@ -3,6 +3,9 @@ Library           Selenium2Library
 Library           OperatingSystem
 Variables         locators.py
 
+*** Test Cases ***
+Open Website
+
 *** Keywords ***
 Open Website
     ${chrome_options}=  Evaluate  sys.modules['selenium.webdriver'].ChromeOptions()  sys, selenium.webdriver
@@ -13,6 +16,5 @@ Open Website
     Call Method    ${chrome_options}    add_argument    --disable-dev-shm-usage
     Open Browser    ${URL}    chrome    options=${chrome_options}      executable_path=${CHROMEDRIVER_PATH}
 
-*** Test Cases ***
-Open Website
+
   
