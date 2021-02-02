@@ -1,7 +1,7 @@
 *** Settings ***
 Library           Selenium2Library
 Library           OperatingSystem
-Variables         ./PageObjects/locators.py
+Variables         locators.py
 
 *** Keywords ***
 Open Website
