@@ -4,7 +4,7 @@ Library           OperatingSystem
 Variables         locators.py
 
 *** Test Cases ***
-Open Website
+Test1
         Open Website
 
 *** Keywords ***
