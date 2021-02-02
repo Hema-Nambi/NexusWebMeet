@@ -15,7 +15,7 @@ Open Website
     Call Method    ${chrome_options}    add_argument    --headless
     Call Method    ${chrome_options}    add_argument    --disable-gpu
     Call Method    ${chrome_options}    add_argument    --disable-dev-shm-usage
-    Open Browser    ${URL}    chrome    options=${chrome_options}      executable_path=${CHROMEDRIVER_PATH}
+    Open Browser    ${DEFAULT_URL}    chrome    options=${chrome_options}      executable_path=${CHROMEDRIVER_PATH}
 
 
   
